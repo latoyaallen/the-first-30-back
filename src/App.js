@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import * as d3 from 'd3'
+import workouts from './data/workouts';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  componentDidMount() {
+    this.drawWorkoutChart();
+  }
+
+  drawWorkoutChart() {
+    console.log("it gets here");
+    console.log(workouts);
+    d3.select(".App") // create a viz inside the node App
+      .selectAll("div") // and get all of the divs inside of the chart OR return an empty selection if no div exists
+      .data(workouts) // everything under .data will get executed data.size times.
+      .enter()
+      .append("div") //adds a div each times it's called
+      .style("width", function(workout) { return workout + "px";})
+      .text(function(workout) { return workout; });
+  }
+
+  render() {
+    return (
+      <div className="App">
+      </div>
+    )
+  }
 }
 
 export default App;
