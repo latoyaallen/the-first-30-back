@@ -11,13 +11,12 @@ const styles = StyleSheet.create({
     marginBottom: 50,
     cursor: 'pointer',
     color: '#483d8b',
+    width: '90%',
     '@media (min-width: 600px)': {
       marginLeft: '10%',
-      color: 'pink',
     },
     '@media (min-width: 780px)': {
       marginLeft: '9%',
-      color: 'black',
     }
   },
   fitbitStepChart: {
@@ -54,7 +53,8 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <p className={css(styles.nameText)}>Steps Tracked by FitBit for the First Month of New Workouts</p>
+        <h1 className={css(styles.nameText)}>Starting a workout routine post injury is always a challenge.</h1>
+        <h1 className={css(styles.nameText)}>We can track  your FitBit steps to ensure you're gradually increasing your physical activity.</h1>
         <div className={css(styles.fitbitStepChart)}>
           <div className="App">
           </div>
