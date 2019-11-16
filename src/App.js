@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import * as d3 from 'd3'
 import steps from './data/steps';
+import Email from './components/Email';
+import LinkedIn from './components/LinkedIn';
+import Github from './components/Github';
 import { StyleSheet, css } from 'aphrodite';
 
 const styles = StyleSheet.create({
@@ -58,6 +61,8 @@ class App extends React.Component {
         <div className={css(styles.fitbitStepChart)}>
           <div className="App">
           </div>
+          <h2> You can find the code for this project {<Github />}. </h2>
+          <h2> If you have any questions, message me on {<LinkedIn />}, or send me an {<Email />}. </h2>
         </div>
       </React.Fragment>
     )
