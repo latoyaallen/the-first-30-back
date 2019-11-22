@@ -4,6 +4,7 @@ import steps from './data/steps';
 import IntroText from './components/IntroText';
 import Contact from './components/Contact';
 import FitBitStepsChart from './components/FitBitStepsChart';
+import WorkoutSchedule from './components/WorkoutSchedule';
 import drawFitBitStepsChart from './lib/drawFitBitStepsChart';
 
 class App extends React.Component {
@@ -21,6 +22,7 @@ class App extends React.Component {
         <IntroText />
         <FitBitStepsChart />
         <Contact />
+        <WorkoutSchedule />
       </React.Fragment>
     )
   }
