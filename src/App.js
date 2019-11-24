@@ -21,8 +21,8 @@ class App extends React.Component {
       <React.Fragment>
         <IntroText />
         <FitBitStepsChart />
-        <Contact />
         <WorkoutSchedule />
+        <Contact />
       </React.Fragment>
     )
   }

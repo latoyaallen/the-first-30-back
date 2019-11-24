@@ -19,9 +19,10 @@ const styles = StyleSheet.create({
 
 const WorkoutSchedule = () => (
   <div>
-    <h1 className={css(styles.text)}>Monday/Wednesday: HIIT</h1>
-    <h1 className={css(styles.text)}>Tuesday/Thursday/Saturday: Active Rest</h1>
-    <h1 className={css(styles.text)}>Friday/Sunday: Upper/Lower Super Sets</h1>
+    <h1 className={css(styles.text)}>Workout Schedule:</h1>
+    <h3 className={css(styles.text)}>Monday/Wednesday: HIIT</h3>
+    <h3 className={css(styles.text)}>Tuesday/Thursday/Saturday/Sunday: Active Rest (Yoga, Long Walks, Bike)</h3>
+    <h3 className={css(styles.text)}>Friday: Upper/Lower Super Sets</h3>
   </div>
 );
 
