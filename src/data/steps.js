@@ -1,4 +1,3 @@
-//const steps = [10000, 8000, 9000, 1200, 15000, 990,10000];
 const steps = [
   {"steps": 5000,
     "day": "Mon  11/11"
@@ -23,6 +22,27 @@ const steps = [
   },
   {"steps": 10203,
     "day": "Sun 11/17"
+  },
+  {"steps": 11206,
+    "day": "Mon 11/18"
+  },
+  {"steps": 9148,
+    "day": "Tue 11/19"
+  },
+  {"steps": 10011,
+    "day": "Wed 11/20"
+  },
+  {"steps": 11042,
+    "day": "Thur 11/21"
+  },
+  {"steps": 11947,
+    "day": "Fri 11/21"
+  },
+  {"steps": 10000,     // from now on I'll remove the fitbit once we get to 10k steps
+    "day": "Sat 11/21"
+  },
+  {"steps": 10000,
+    "day": "Sun 11/21"
   },
 ]
 export default steps;
