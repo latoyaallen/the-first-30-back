@@ -41,7 +41,7 @@ const steps = [
   {"steps": 10000,     // from now on I'll remove the fitbit once we get to 10k steps
     "day": "Sat 11/21"
   },
-  {"steps": 10000,
+  {"steps": 13193,
     "day": "Sun 11/21"
   },
 ]
