@@ -44,5 +44,11 @@ const steps = [
   {"steps": 13193,
     "day": "Sun 11/21"
   },
+  {"steps": 9107,
+    "day": "Mon 11/21"
+  },
+  {"steps": 11711, // a coincidence
+    "day": "Tue 11/21"
+  },
 ]
 export default steps;
