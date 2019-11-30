@@ -36,19 +36,28 @@ const steps = [
     "day": "Thur 11/21"
   },
   {"steps": 11947,
-    "day": "Fri 11/21"
+    "day": "Fri 11/22"
   },
   {"steps": 10000,     // from now on I'll remove the fitbit once we get to 10k steps
-    "day": "Sat 11/21"
+    "day": "Sat 11/23"
   },
   {"steps": 13193,
-    "day": "Sun 11/21"
+    "day": "Sun 11/24"
   },
   {"steps": 9107,
-    "day": "Mon 11/21"
+    "day": "Mon 11/25"
   },
   {"steps": 11711, // a coincidence
-    "day": "Tue 11/21"
+    "day": "Tue 11/26"
+  },
+  {"steps": 10000,
+    "day": "Wed 11/27"
+  },
+  {"steps": 10200,
+    "day": "Thur 11/28"
+  },
+  {"steps": 18064,
+    "day": "Fri 11/29"
   },
 ]
 export default steps;
